@@ -1,0 +1,63 @@
+* {
+    margin: 0; 
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+body {
+    background-color: cornflowerblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.formulario {
+    background-color: beige;
+    width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.formulario input [type="text"]
+.formulario[type="number"]
+.formulario textarea {
+    width: 100px;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    border: 1px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100;
+}
+
+.formulario {
+    min-height: 400px;
+    max-height: 300px;
+    min-width: 50%;
+    max-width: 75%;
+}
+
+.submit {
+    width: 200px;
+    margin: 0% auto;
+    background: none;
+    border: 1px solid salmon;
+    padding: 20px;
+    color: rgb(34, 136, 136);
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.submit:hover {
+    background: rgb(34, 136, 136);
+    color: blue;
+}
+
+
+.paragraph  {
+    background-color: pink;
+    padding: 50px;
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 600px;
+}
